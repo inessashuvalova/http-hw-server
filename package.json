@@ -1,0 +1,22 @@
+{
+  "name": "http-hw-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": "https://github.com/inessashuvalova/http-hw-server.git",
+  "author": "Inessa Shuvalova <inessa.shuvalova@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "ws": "^8.5.0"
+  }
+}
